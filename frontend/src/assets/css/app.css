@@ -1,0 +1,31 @@
+.wrap-register{
+    width: 35%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1400px) {
+    .wrap-register{
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .wrap-register{
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .wrap-register{
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .wrap-register{
+        width: 90% !important;
+    }
+}
